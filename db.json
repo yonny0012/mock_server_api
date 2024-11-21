@@ -1,0 +1,451 @@
+{
+  "user": [
+    {
+      "id": "de20",
+      "email": "jimenez@gmail.com",
+      "userName": "sule03",
+      "password": "sules0aes",
+      "permissions": [
+        {
+          "id": "1d2e",
+          "createdAt": "2024-11-14T06:52:24.196Z",
+          "updateAt": "2024-11-14T06:52:24.196Z",
+          "name": "crear",
+          "description": "puede crear"
+        }
+      ],
+      "role": {
+        "id": "1ec4",
+        "name": "manager",
+        "description": "ocupa las ventas y compras",
+        "createdAt": "2024-11-14T06:52:24.196Z"
+      },
+      "active": false,
+      "createAt": "2024-11-15T06:52:24.196Z",
+      "updateAt": "2024-11-15T06:52:24.196Z"
+    }
+  ],
+  "role": [
+    {
+      "id": "c14d",
+      "name": "admin",
+      "description": "super usuario del sistema",
+      "createdAt": "2024-11-15T06:52:24.196Z"
+    },
+    {
+      "id": "1ec4",
+      "name": "manager",
+      "description": "ocupa las ventas y compras",
+      "createdAt": "2024-11-14T06:52:24.196Z"
+    },
+    {
+      "id": "eb91",
+      "name": "provider",
+      "description": "provee productos y servicios",
+      "createdAt": "2024-11-14T06:52:24.196Z"
+    }
+  ],
+  "budget": [
+    {
+      "id": "25dc",
+      "name": "comida",
+      "amount": "300",
+      "decription": "Compra de comida enbodega",
+      "date": "2024-11-21T07:04:10.659Z",
+      "createdAt": "2024-11-21T07:04:10.659Z",
+      "updatedAt": "2024-11-21T07:04:10.659Z",
+      "provider": null,
+      "manager": null,
+      "currency": {
+        "id": "1dye",
+        "createdAt": "2024-11-14T06:52:24.196Z",
+        "updateAt": "2024-11-14T06:52:24.196Z",
+        "symbol": "MLC",
+        "name": "Moneda libremente convertible",
+        "icon": "credit_card"
+      },
+      "spents": [
+        {
+          "name": "frijoles",
+          "amount": "80",
+          "category": {
+            "id": "1dwq",
+            "createdAt": "2024-11-14T06:52:24.196Z",
+            "updateAt": "2024-11-14T06:52:24.196Z",
+            "name": "Autoconsumo",
+            "description": "descrpcion de la categoria"
+          },
+          "description": ""
+        },
+        {
+          "name": "arroz",
+          "amount": "20",
+          "category": {
+            "id": "1dwq",
+            "createdAt": "2024-11-14T06:52:24.196Z",
+            "updateAt": "2024-11-14T06:52:24.196Z",
+            "name": "Autoconsumo",
+            "description": "descrpcion de la categoria"
+          },
+          "description": ""
+        },
+        {
+          "name": "papitas fritas",
+          "amount": "40",
+          "category": {
+            "id": "1222",
+            "createdAt": "2024-11-14T06:52:24.196Z",
+            "updateAt": "2024-11-14T06:52:24.196Z",
+            "name": "Estimulo",
+            "description": "descrpcion de la categoria"
+          },
+          "description": "para el destacado"
+        }
+      ],
+      "finalAmount": 160
+    },
+    {
+      "id": "6f2e",
+      "name": "energia",
+      "amount": "40200",
+      "decription": "Inversion en energia y corriente",
+      "date": "2024-11-21T08:23:59.011Z",
+      "createdAt": "2024-11-21T08:23:59.011Z",
+      "updatedAt": "2024-11-21T08:23:59.011Z",
+      "provider": null,
+      "category": null,
+      "manager": null,
+      "currency": {
+        "id": "1q2e",
+        "createdAt": "2024-11-14T06:52:24.196Z",
+        "updateAt": "2024-11-14T06:52:24.196Z",
+        "symbol": "CUP",
+        "name": "Peso cubano",
+        "icon": "attach_money"
+      },
+      "spents": [
+        {
+          "name": "gasolina",
+          "amount": "2000",
+          "category": {
+            "id": "wr2e",
+            "createdAt": "2024-11-14T06:52:24.196Z",
+            "updateAt": "2024-11-14T06:52:24.196Z",
+            "name": "Transportacion",
+            "description": "descrpcion de la categoria"
+          },
+          "description": "pago del chofer"
+        },
+        {
+          "name": "administrador",
+          "amount": "3000",
+          "category": {
+            "id": "1dwq",
+            "createdAt": "2024-11-14T06:52:24.196Z",
+            "updateAt": "2024-11-14T06:52:24.196Z",
+            "name": "Autoconsumo",
+            "description": "descrpcion de la categoria"
+          },
+          "description": "pago al admin "
+        },
+        {
+          "name": "personal",
+          "amount": "3200",
+          "category": {
+            "id": "1222",
+            "createdAt": "2024-11-14T06:52:24.196Z",
+            "updateAt": "2024-11-14T06:52:24.196Z",
+            "name": "Estimulo",
+            "description": "descrpcion de la categoria"
+          },
+          "description": "estimulo la personal"
+        }
+      ],
+      "finalAmount": 32000
+    },
+    {
+      "id": "2cfa",
+      "name": "marketing",
+      "amount": "100",
+      "decription": "dedicado a la propagacion en redes sociales",
+      "date": "2024-11-21T08:28:31.516Z",
+      "createdAt": "2024-11-21T08:28:31.516Z",
+      "updatedAt": "2024-11-21T08:28:31.516Z",
+      "provider": null,
+      "category": null,
+      "manager": null,
+      "currency": {
+        "id": "1e2e",
+        "createdAt": "2024-11-14T06:52:24.196Z",
+        "updateAt": "2024-11-14T06:52:24.196Z",
+        "symbol": "USD",
+        "name": "Dollar americano",
+        "icon": "payments"
+      },
+      "spents": [
+        {
+          "name": "facebook ads",
+          "amount": "30",
+          "category": {
+            "id": "1dwq",
+            "createdAt": "2024-11-14T06:52:24.196Z",
+            "updateAt": "2024-11-14T06:52:24.196Z",
+            "name": "Autoconsumo",
+            "description": "descrpcion de la categoria"
+          },
+          "description": ""
+        },
+        {
+          "name": "tik tok",
+          "amount": "20",
+          "category": {
+            "id": "1dwq",
+            "createdAt": "2024-11-14T06:52:24.196Z",
+            "updateAt": "2024-11-14T06:52:24.196Z",
+            "name": "Autoconsumo",
+            "description": "descrpcion de la categoria"
+          },
+          "description": ""
+        }
+      ],
+      "finalAmount": 50
+    },
+    {
+      "id": "f165",
+      "name": "marketing",
+      "amount": "100",
+      "decription": "dedicado a la propagacion en redes sociales",
+      "date": "2024-11-21T08:31:43.269Z",
+      "createdAt": "2024-11-21T08:31:43.269Z",
+      "updatedAt": "2024-11-21T08:31:43.269Z",
+      "provider": null,
+      "category": null,
+      "manager": null,
+      "currency": {
+        "id": "1e2e",
+        "createdAt": "2024-11-14T06:52:24.196Z",
+        "updateAt": "2024-11-14T06:52:24.196Z",
+        "symbol": "USD",
+        "name": "Dollar americano",
+        "icon": "payments"
+      },
+      "spents": [
+        {
+          "name": "facebook ads",
+          "amount": "30",
+          "category": {
+            "id": "1dwq",
+            "createdAt": "2024-11-14T06:52:24.196Z",
+            "updateAt": "2024-11-14T06:52:24.196Z",
+            "name": "Autoconsumo",
+            "description": "descrpcion de la categoria"
+          },
+          "description": ""
+        },
+        {
+          "name": "tik tok",
+          "amount": "20",
+          "category": {
+            "id": "1dwq",
+            "createdAt": "2024-11-14T06:52:24.196Z",
+            "updateAt": "2024-11-14T06:52:24.196Z",
+            "name": "Autoconsumo",
+            "description": "descrpcion de la categoria"
+          },
+          "description": ""
+        }
+      ],
+      "finalAmount": 50
+    },
+    {
+      "id": "7051",
+      "name": "marketing",
+      "amount": "100",
+      "decription": "dedicado a la propagacion en redes sociales",
+      "date": "2024-11-21T08:31:58.621Z",
+      "createdAt": "2024-11-21T08:31:58.621Z",
+      "updatedAt": "2024-11-21T08:31:58.621Z",
+      "provider": null,
+      "category": null,
+      "manager": null,
+      "currency": {
+        "id": "1e2e",
+        "createdAt": "2024-11-14T06:52:24.196Z",
+        "updateAt": "2024-11-14T06:52:24.196Z",
+        "symbol": "USD",
+        "name": "Dollar americano",
+        "icon": "payments"
+      },
+      "spents": [
+        {
+          "name": "facebook ads",
+          "amount": "30",
+          "category": {
+            "id": "1dwq",
+            "createdAt": "2024-11-14T06:52:24.196Z",
+            "updateAt": "2024-11-14T06:52:24.196Z",
+            "name": "Autoconsumo",
+            "description": "descrpcion de la categoria"
+          },
+          "description": ""
+        },
+        {
+          "name": "tik tok",
+          "amount": "20",
+          "category": {
+            "id": "1dwq",
+            "createdAt": "2024-11-14T06:52:24.196Z",
+            "updateAt": "2024-11-14T06:52:24.196Z",
+            "name": "Autoconsumo",
+            "description": "descrpcion de la categoria"
+          },
+          "description": ""
+        }
+      ],
+      "finalAmount": 50
+    }
+  ],
+  "spent": [
+    {
+      "amount": "15000",
+      "category": {
+        "id": "1d2e",
+        "createdAt": "2024-11-14T06:52:24.196Z",
+        "updateAt": "2024-11-14T06:52:24.196Z",
+        "name": "nombre categoria",
+        "description": "descrpcion de la categoria"
+      },
+      "createdAt": "2024-11-14T06:52:24.196Z",
+      "description": "gaste una pila de plata en esto",
+      "id": "1ece",
+      "name": "nombre de gasto",
+      "updateAt": "2024-11-14T06:52:24.196Z"
+    }
+  ],
+  "category": [
+    {
+      "id": "wr2e",
+      "createdAt": "2024-11-14T06:52:24.196Z",
+      "updateAt": "2024-11-14T06:52:24.196Z",
+      "name": "Transportacion",
+      "description": "descrpcion de la categoria"
+    },
+    {
+      "id": "1dwq",
+      "createdAt": "2024-11-14T06:52:24.196Z",
+      "updateAt": "2024-11-14T06:52:24.196Z",
+      "name": "Autoconsumo",
+      "description": "descrpcion de la categoria"
+    },
+    {
+      "id": "1222",
+      "createdAt": "2024-11-14T06:52:24.196Z",
+      "updateAt": "2024-11-14T06:52:24.196Z",
+      "name": "Estimulo",
+      "description": "descrpcion de la categoria"
+    }
+  ],
+  "currency": [
+    {
+      "id": "1q2e",
+      "createdAt": "2024-11-14T06:52:24.196Z",
+      "updateAt": "2024-11-14T06:52:24.196Z",
+      "symbol": "CUP",
+      "name": "Peso cubano",
+      "icon": "attach_money"
+    },
+    {
+      "id": "1w2e",
+      "createdAt": "2024-11-14T06:52:24.196Z",
+      "updateAt": "2024-11-14T06:52:24.196Z",
+      "symbol": "EUR",
+      "name": "Euro",
+      "icon": "euro"
+    },
+    {
+      "id": "1e2e",
+      "createdAt": "2024-11-14T06:52:24.196Z",
+      "updateAt": "2024-11-14T06:52:24.196Z",
+      "symbol": "USD",
+      "name": "Dollar americano",
+      "icon": "payments"
+    },
+    {
+      "id": "1r2e",
+      "createdAt": "2024-11-14T06:52:24.196Z",
+      "updateAt": "2024-11-14T06:52:24.196Z",
+      "symbol": "RUB",
+      "name": "Rublo ruso",
+      "icon": "currency_ruble"
+    },
+    {
+      "id": "1t2e",
+      "createdAt": "2024-11-14T06:52:24.196Z",
+      "updateAt": "2024-11-14T06:52:24.196Z",
+      "symbol": "GBP",
+      "name": "Libra de gran bretaña",
+      "icon": "currency_pound"
+    },
+    {
+      "id": "1dye",
+      "createdAt": "2024-11-14T06:52:24.196Z",
+      "updateAt": "2024-11-14T06:52:24.196Z",
+      "symbol": "MLC",
+      "name": "Moneda libremente convertible",
+      "icon": "credit_card"
+    },
+    {
+      "id": "1dee",
+      "createdAt": "2024-11-14T06:52:24.196Z",
+      "updateAt": "2024-11-14T06:52:24.196Z",
+      "symbol": "JPY",
+      "name": "Yen Japonés",
+      "icon": "currency_yen"
+    }
+  ],
+  "manager": [],
+  "provider": [],
+  "permission": [
+    {
+      "id": "1d2e",
+      "createdAt": "2024-11-14T06:52:24.196Z",
+      "updateAt": "2024-11-14T06:52:24.196Z",
+      "name": "crear",
+      "description": "puede crear"
+    }
+  ],
+  "person": [
+    {
+      "id": "1dqw",
+      "createdAt": "2024-11-14T06:52:24.196Z",
+      "updateAt": "2024-11-14T06:52:24.196Z",
+      "name": "Sulennis Saray",
+      "lastName": "Jimenez Viltres",
+      "birthdate": "2024-11-14T06:52:24.196Z",
+      "user": {
+        "id": "de20",
+        "email": "jimenez@gmail.com",
+        "userName": "sule03",
+        "password": "sules0aes",
+        "permissions": [
+          {
+            "id": "1d2e",
+            "createdAt": "2024-11-14T06:52:24.196Z",
+            "updateAt": "2024-11-14T06:52:24.196Z",
+            "name": "crear",
+            "description": "puede crear"
+          }
+        ],
+        "role": {
+          "id": "1ec4",
+          "name": "manager",
+          "description": "ocupa las ventas y compras",
+          "createdAt": "2024-11-14T06:52:24.196Z"
+        },
+        "active": false,
+        "createAt": "2024-11-15T06:52:24.196Z",
+        "updateAt": "2024-11-15T06:52:24.196Z"
+      }
+    }
+  ]
+}
